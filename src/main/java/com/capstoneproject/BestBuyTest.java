@@ -38,15 +38,16 @@ public class BestBuyTest {
 			driver.get("https://www.bestbuy.com/");
 			driver.findElement(By.xpath("/html/body/div[2]/div/div/div/div[1]/div[2]/a[2]")).click();
 		}
-	   @AfterMethod 
+	  @AfterMethod 
 	   public void tearDown() {
 		   if(driver !=null) {
-			   driver.quit();
-		   }
+			   
+		  }
 		   
-	   }
-	   public WebDriver getDriver() {
-	       return driver;
-	   }
+	  }
+	  public WebDriver getDriver() {
+	      return driver;
+	  }
 }
+
 

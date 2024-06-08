@@ -14,7 +14,7 @@ public class SearchAndAddCart  extends BestBuyTest{
 	
 	@Test
 	public void searchAndAddToCart() {
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 	    driver.findElement(By.id("gh-search-input")).sendKeys("Laptop");
 	    driver.findElement(By.cssSelector(".header-search-button")).click();
 	    driver.findElement(By.cssSelector(".sku-title a")).click();

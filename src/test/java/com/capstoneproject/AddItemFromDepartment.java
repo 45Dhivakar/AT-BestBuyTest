@@ -20,7 +20,7 @@ public class AddItemFromDepartment extends BestBuyTest {
 		WebElement clickMenuButton = driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']"));
 		 js.executeScript("arguments[0].click();", clickMenuButton);
 		// driver.findElement(By.tagName("body")).sendKeys(Keys.PAGE_DOWN);
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
 		 WebElement clicksubMenu = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@data-id='node-407']")));
 		 clicksubMenu.click();
 		 WebElement subMenu = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@data-id='node-295']")));

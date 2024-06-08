@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.capstoneproject.CheckOutAndPayment">
+      <class name="com.capstoneproject.SearchAndAddCart">
         <methods>
-          <include name="checkout"/>
+          <include name="searchAndAddToCart"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.capstoneproject.CheckOutAndPayment -->
+      </class> <!-- com.capstoneproject.SearchAndAddCart -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

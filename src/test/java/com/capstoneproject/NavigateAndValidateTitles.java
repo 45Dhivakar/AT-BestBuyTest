@@ -17,7 +17,7 @@ public class NavigateAndValidateTitles extends BestBuyTest {
 	@Test
 	public void navigateAndValidateTitle() {
 		WebDriver driver = getDriver();
-		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(0));
+		 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		 JavascriptExecutor js = (JavascriptExecutor) driver;
 		 WebElement clickMenuButton = driver.findElement(By.xpath("//button[@class='c-button-unstyled hamburger-menu-button']"));
 		 js.executeScript("arguments[0].click();", clickMenuButton);
