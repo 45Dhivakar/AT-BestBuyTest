@@ -17,20 +17,6 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.capstoneproject.Pages.InvalidLoginTest -->
-      <class name="com.capstoneproject.Pages.AddItemFromDepartmentTest">
-        <methods>
-          <include name="addItemFromDepartment"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.capstoneproject.Pages.AddItemFromDepartmentTest -->
-      <class name="com.capstoneproject.Pages.AddItemFromBrandTest">
-        <methods>
-          <include name="addItemFromBrand"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.capstoneproject.Pages.AddItemFromBrandTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

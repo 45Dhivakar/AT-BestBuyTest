@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 4 failed,   4 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,16 +101,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.capstoneproject.Pages.AddItemFromBrandTest" class="method navigator-link" hash-for-method="addItemFromBrand">addItemFromBrand</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.capstoneproject.Pages.AddItemFromDepartmentTest" class="method navigator-link" hash-for-method="addItemFromDepartment">addItemFromDepartment</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.capstoneproject.Pages.CheckoutTest" class="method navigator-link" hash-for-method="checkout">checkout</a> <!-- method navigator-link -->
@@ -130,6 +120,16 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.capstoneproject.Pages.AddItemFromBrandTest" class="method navigator-link" hash-for-method="addItemFromBrand">addItemFromBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.capstoneproject.Pages.AddItemFromDepartmentTest" class="method navigator-link" hash-for-method="addItemFromDepartment">addItemFromDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.capstoneproject.Pages.NavigateAndValidateTitles" class="method navigator-link" hash-for-method="navigateAndValidateTitle">navigateAndValidateTitle</a> <!-- method navigator-link -->
@@ -173,14 +173,14 @@
                   <a name="checkout">
                   </a> <!-- checkout -->
                   <span class="method-name">checkout</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn btn-lg btn-block btn-primary&quot; type=&quot;button&quot;&gt; is not clickable at point (1306,368) because another element &lt;div class=&quot;page-spinner page-spinner--out&quot;&gt; obscures it
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;input id=&quot;text-updates&quot; class=&quot;c-checkbox-input appearance-none border-25 rounded-25&quot; type=&quot;checkbox&quot;&gt; is not clickable at point (336,721) because another element &lt;div class=&quot;page-spinner page-spinner--out&quot;&gt; obscures it
 Build info: version: &apos;4.19.0&apos;, revision: &apos;5f9cec8963&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2e703110-adbd-44ca-9e07-5904198927e6, clickElement {id=46955093-fc52-4818-ab12-6dfc6b389b07}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:26599, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26048, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:26599/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (2e703110-adbd-44ca-9e07-5904198927e6)] -&gt; xpath: (//section[@class=&apos;fluid-large-view__sidebar&apos;]//button[@type=&apos;button&apos;])[1]]
-Session ID: 2e703110-adbd-44ca-9e07-5904198927e6
+Command: [62605eaf-d085-4c2e-9c64-178558517e1c, clickElement {id=5762fa7c-fafb-4db0-93eb-a0dedd853a57}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:3691, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21632, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:3691/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (62605eaf-d085-4c2e-9c64-178558517e1c)] -&gt; xpath: //span[@class=&apos;c-checkbox-brand&apos;]//input[@id=&apos;text-updates&apos;]]
+Session ID: 62605eaf-d085-4c2e-9c64-178558517e1c
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -190,7 +190,7 @@ Session ID: 2e703110-adbd-44ca-9e07-5904198927e6
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at com.capstoneproject.Pages.CheckoutTest.checkout(CheckoutTest.java:51)
+	at com.capstoneproject.Pages.CheckoutTest.checkout(CheckoutTest.java:82)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
 </div> <!-- stack-trace -->
@@ -214,9 +214,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.19.0&apos;, revision: &apos;5f9cec8963&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [fd520568-d92c-4199-bfdb-b50b2e85e50f, findElement {value=//div[contains(text(), &apos;Sorry, something went wrong. Please try again.&apos;)], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:43122, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3332, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:43122/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: fd520568-d92c-4199-bfdb-b50b2e85e50f
+Command: [f7eee77a-37fd-437d-a9df-75ac6517d8c0, findElement {value=//div[contains(text(), &apos;Sorry, something went wrong. Please try again.&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:15566, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28392, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15566/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f7eee77a-37fd-437d-a9df-75ac6517d8c0
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -232,60 +232,6 @@ Session ID: fd520568-d92c-4199-bfdb-b50b2e85e50f
 	at com.capstoneproject.Pages.InvalidLoginTest.invalidLogin(InvalidLoginTest.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.capstoneproject.Pages.AddItemFromDepartmentTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addItemFromDepartment">
-                  </a> <!-- addItemFromDepartment -->
-                  <span class="method-name">addItemFromDepartment</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-id=&apos;node-407&apos;] (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.19.0&apos;, revision: &apos;5f9cec8963&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:36266, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24660, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:36266/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 21586df9-ae51-4a30-9788-7688f4a7f94b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.capstoneproject.Pages.AddItemFromDepartmentTest.addItemFromDepartment(AddItemFromDepartmentTest.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.capstoneproject.Pages.AddItemFromBrandTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addItemFromBrand">
-                  </a> <!-- addItemFromBrand -->
-                  <span class="method-name">addItemFromBrand</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@data-id=&apos;node-82&apos;] (tried for 40 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.19.0&apos;, revision: &apos;5f9cec8963&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:10945, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21800, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10945/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: c4362d55-9a2d-4f6f-81e9-b343a7b7f9af
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.capstoneproject.Pages.AddItemFromBrandTest.addItemFromBrand(AddItemFromBrandTest.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -339,6 +285,36 @@ Session ID: c4362d55-9a2d-4f6f-81e9-b343a7b7f9af
                   <a name="searchAndAddToCart">
                   </a> <!-- searchAndAddToCart -->
                   <span class="method-name">searchAndAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.capstoneproject.Pages.AddItemFromDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemFromDepartment">
+                  </a> <!-- addItemFromDepartment -->
+                  <span class="method-name">addItemFromDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.capstoneproject.Pages.AddItemFromBrandTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemFromBrand">
+                  </a> <!-- addItemFromBrand -->
+                  <span class="method-name">addItemFromBrand</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -403,37 +379,37 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addItemFromDepartment')
-data.setCell(0, 2, 'com.capstoneproject.Pages.AddItemFromDepartmentTest')
-data.setCell(0, 3, 41090);
+data.setCell(0, 1, 'checkout')
+data.setCell(0, 2, 'com.capstoneproject.Pages.CheckoutTest')
+data.setCell(0, 3, 50335);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addItemFromBrand')
 data.setCell(1, 2, 'com.capstoneproject.Pages.AddItemFromBrandTest')
-data.setCell(1, 3, 40519);
+data.setCell(1, 3, 39625);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkout')
-data.setCell(2, 2, 'com.capstoneproject.Pages.CheckoutTest')
-data.setCell(2, 3, 26236);
+data.setCell(2, 1, 'addItemFromDepartment')
+data.setCell(2, 2, 'com.capstoneproject.Pages.AddItemFromDepartmentTest')
+data.setCell(2, 3, 29300);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'signUpAndLogin')
 data.setCell(3, 2, 'com.capstoneproject.Pages.SignUpAndLogin')
-data.setCell(3, 3, 15469);
+data.setCell(3, 3, 13635);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'searchAndAddToCart')
 data.setCell(4, 2, 'com.capstoneproject.Pages.SearchAndAddCart')
-data.setCell(4, 3, 12781);
+data.setCell(4, 3, 10764);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'invalidLogin')
 data.setCell(5, 2, 'com.capstoneproject.Pages.InvalidLoginTest')
-data.setCell(5, 3, 6105);
+data.setCell(5, 3, 9778);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'navigateAndValidateTitle')
 data.setCell(6, 2, 'com.capstoneproject.Pages.NavigateAndValidateTitles')
-data.setCell(6, 3, 704);
+data.setCell(6, 3, 857);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'validateBottomLinks')
 data.setCell(7, 2, 'com.capstoneproject.Pages.NavigateAndValidateTitles')
-data.setCell(7, 3, 31);
+data.setCell(7, 3, 25);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -471,121 +447,117 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">signUpAndLogin</span>
-                <span class="method-start">11092 ms</span>
+                <span class="method-start">18901 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">26568 ms</span>
+                <span class="method-start">32542 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.capstoneproject.Pages.InvalidLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">28341 ms</span>
+                <span class="method-start">35369 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidLogin</span>
-                <span class="method-start">36165 ms</span>
+                <span class="method-start">45275 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42279 ms</span>
+                <span class="method-start">55071 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.capstoneproject.Pages.NavigateAndValidateTitles</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">43785 ms</span>
+                <span class="method-start">57623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">navigateAndValidateTitle</span>
-                <span class="method-start">52181 ms</span>
+                <span class="method-start">72561 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52889 ms</span>
+                <span class="method-start">73421 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">55189 ms</span>
+                <span class="method-start">75357 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateBottomLinks</span>
-                <span class="method-start">66307 ms</span>
+                <span class="method-start">86417 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">66341 ms</span>
+                <span class="method-start">86447 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.capstoneproject.Pages.SearchAndAddCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">68424 ms</span>
+                <span class="method-start">88279 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchAndAddToCart</span>
-                <span class="method-start">77580 ms</span>
+                <span class="method-start">98041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">90375 ms</span>
+                <span class="method-start">108807 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.capstoneproject.Pages.AddItemFromBrandTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">93665 ms</span>
+                <span class="method-start">110787 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addItemFromBrand</span>
-                <span class="method-start">101442 ms</span>
+                <span class="method-start">120428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">141963 ms</span>
+                <span class="method-start">160056 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.capstoneproject.Pages.AddItemFromDepartmentTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">143860 ms</span>
+                <span class="method-start">162177 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">addItemFromDepartment</span>
-                <span class="method-start">152330 ms</span>
+                <span class="method-start">172068 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">193423 ms</span>
+                <span class="method-start">201379 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.capstoneproject.Pages.CheckoutTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(Firefox)</span>
-                <span class="method-start">195117 ms</span>
+                <span class="method-start">203521 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkout</span>
-                <span class="method-start">203353 ms</span>
+                <span class="method-start">213100 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">229595 ms</span>
+                <span class="method-start">263438 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
