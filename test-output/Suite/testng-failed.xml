@@ -3,13 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.capstoneproject.Pages.CheckoutTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="checkout"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.capstoneproject.Pages.CheckoutTest -->
       <class name="com.capstoneproject.Pages.InvalidLoginTest">
         <methods>
           <include name="invalidLogin"/>

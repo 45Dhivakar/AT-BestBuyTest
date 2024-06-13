@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-13T12:47:30 IST" name="Suite" finished-at="2024-06-13T12:51:56 IST" duration-ms="266107">
+  <suite started-at="2024-06-13T13:21:12 IST" name="Suite" finished-at="2024-06-13T13:26:20 IST" duration-ms="307730">
     <groups>
     </groups>
-    <test started-at="2024-06-13T12:47:30 IST" name="Test" finished-at="2024-06-13T12:51:56 IST" duration-ms="266107">
+    <test started-at="2024-06-13T13:21:12 IST" name="Test" finished-at="2024-06-13T13:26:20 IST" duration-ms="307730">
       <class name="com.capstoneproject.Pages.NavigateAndValidateTitles">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T12:48:28 IST" name="setUp" finished-at="2024-06-13T12:48:43 IST" duration-ms="14937" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T13:23:26 IST" name="setUp" finished-at="2024-06-13T13:23:35 IST" duration-ms="9673" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateAndValidateTitle()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T12:48:43 IST" name="navigateAndValidateTitle" finished-at="2024-06-13T12:48:44 IST" duration-ms="857" status="PASS">
+        <test-method signature="navigateAndValidateTitle()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T13:23:35 IST" name="navigateAndValidateTitle" finished-at="2024-06-13T13:23:36 IST" duration-ms="937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateAndValidateTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T12:48:44 IST" name="tearDown" finished-at="2024-06-13T12:48:46 IST" duration-ms="1935" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T13:23:36 IST" name="tearDown" finished-at="2024-06-13T13:23:39 IST" duration-ms="2620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T12:48:46 IST" name="setUp" finished-at="2024-06-13T12:48:57 IST" duration-ms="11060" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T13:23:39 IST" name="setUp" finished-at="2024-06-13T13:23:49 IST" duration-ms="9703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,17 +37,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateBottomLinks()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T12:48:57 IST" name="validateBottomLinks" finished-at="2024-06-13T12:48:57 IST" duration-ms="25" status="PASS">
+        <test-method signature="validateBottomLinks()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T13:23:49 IST" name="validateBottomLinks" finished-at="2024-06-13T13:23:49 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateBottomLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T12:48:57 IST" name="tearDown" finished-at="2024-06-13T12:48:58 IST" duration-ms="1821" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.NavigateAndValidateTitles@22555ebf]" started-at="2024-06-13T13:23:49 IST" name="tearDown" finished-at="2024-06-13T13:23:51 IST" duration-ms="1841" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.capstoneproject.Pages.NavigateAndValidateTitles -->
       <class name="com.capstoneproject.Pages.InvalidLoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.InvalidLoginTest@292b08d6]" started-at="2024-06-13T12:48:06 IST" name="setUp" finished-at="2024-06-13T12:48:15 IST" duration-ms="9906" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.InvalidLoginTest@292b08d6]" started-at="2024-06-13T13:21:47 IST" name="setUp" finished-at="2024-06-13T13:23:04 IST" duration-ms="76961" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,44 +58,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:0, instance:com.capstoneproject.Pages.InvalidLoginTest@292b08d6]" started-at="2024-06-13T12:48:15 IST" name="invalidLogin" finished-at="2024-06-13T12:48:25 IST" duration-ms="9778" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="invalidLogin()[pri:0, instance:com.capstoneproject.Pages.InvalidLoginTest@292b08d6]" started-at="2024-06-13T13:23:04 IST" name="invalidLogin" finished-at="2024-06-13T13:23:24 IST" duration-ms="20280" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Unable to locate element: //div[contains(text(), 'Sorry, something went wrong. Please try again.')]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: account-menu-account-button (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.19.0', revision: '5f9cec8963'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f7eee77a-37fd-437d-a9df-75ac6517d8c0, findElement {value=//div[contains(text(), 'Sorry, something went wrong. Please try again.')], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:15566, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28392, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15566/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f7eee77a-37fd-437d-a9df-75ac6517d8c0]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:32359, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 740, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32359/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 91c9e05a-0bb4-44c8-a64b-4c9cb77f311e]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(), 'Sorry, something went wrong. Please try again.')]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: account-menu-account-button (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.19.0', revision: '5f9cec8963'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f7eee77a-37fd-437d-a9df-75ac6517d8c0, findElement {value=//div[contains(text(), 'Sorry, something went wrong. Please try again.')], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:15566, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 28392, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15566/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: f7eee77a-37fd-437d-a9df-75ac6517d8c0
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at com.capstoneproject.Pages.InvalidLoginTest.executeLoginTest(InvalidLoginTest.java:44)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:32359, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 740, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:32359/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 91c9e05a-0bb4-44c8-a64b-4c9cb77f311e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.capstoneproject.Pages.InvalidLoginTest.navigateToSignInPage(InvalidLoginTest.java:53)
+at com.capstoneproject.Pages.InvalidLoginTest.executeLoginTest(InvalidLoginTest.java:38)
 at com.capstoneproject.Pages.InvalidLoginTest.invalidLogin(InvalidLoginTest.java:23)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -127,17 +110,17 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.InvalidLoginTest@292b08d6]" started-at="2024-06-13T12:48:25 IST" name="tearDown" finished-at="2024-06-13T12:48:28 IST" duration-ms="2551" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.InvalidLoginTest@292b08d6]" started-at="2024-06-13T13:23:24 IST" name="tearDown" finished-at="2024-06-13T13:23:26 IST" duration-ms="1798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.capstoneproject.Pages.InvalidLoginTest -->
       <class name="com.capstoneproject.Pages.CheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.CheckoutTest@3c41ed1d]" started-at="2024-06-13T12:50:54 IST" name="setUp" finished-at="2024-06-13T12:51:03 IST" duration-ms="9579" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.CheckoutTest@3c41ed1d]" started-at="2024-06-13T13:25:17 IST" name="setUp" finished-at="2024-06-13T13:25:25 IST" duration-ms="8409" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,83 +131,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkout()[pri:0, instance:com.capstoneproject.Pages.CheckoutTest@3c41ed1d]" started-at="2024-06-13T12:51:03 IST" name="checkout" finished-at="2024-06-13T12:51:54 IST" duration-ms="50335" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[Element <input id="text-updates" class="c-checkbox-input appearance-none border-25 rounded-25" type="checkbox"> is not clickable at point (336,721) because another element <div class="page-spinner page-spinner--out"> obscures it
-Build info: version: '4.19.0', revision: '5f9cec8963'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62605eaf-d085-4c2e-9c64-178558517e1c, clickElement {id=5762fa7c-fafb-4db0-93eb-a0dedd853a57}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:3691, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21632, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:3691/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (62605eaf-d085-4c2e-9c64-178558517e1c)] -> xpath: //span[@class='c-checkbox-brand']//input[@id='text-updates']]
-Session ID: 62605eaf-d085-4c2e-9c64-178558517e1c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <input id="text-updates" class="c-checkbox-input appearance-none border-25 rounded-25" type="checkbox"> is not clickable at point (336,721) because another element <div class="page-spinner page-spinner--out"> obscures it
-Build info: version: '4.19.0', revision: '5f9cec8963'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62605eaf-d085-4c2e-9c64-178558517e1c, clickElement {id=5762fa7c-fafb-4db0-93eb-a0dedd853a57}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:3691, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21632, moz:profile: C:\Users\Dell\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:3691/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (62605eaf-d085-4c2e-9c64-178558517e1c)] -> xpath: //span[@class='c-checkbox-brand']//input[@id='text-updates']]
-Session ID: 62605eaf-d085-4c2e-9c64-178558517e1c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.capstoneproject.Pages.CheckoutTest.checkout(CheckoutTest.java:82)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="checkout()[pri:0, instance:com.capstoneproject.Pages.CheckoutTest@3c41ed1d]" started-at="2024-06-13T13:25:25 IST" name="checkout" finished-at="2024-06-13T13:26:16 IST" duration-ms="50276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.CheckoutTest@3c41ed1d]" started-at="2024-06-13T12:51:54 IST" name="tearDown" finished-at="2024-06-13T12:51:56 IST" duration-ms="2593" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.CheckoutTest@3c41ed1d]" started-at="2024-06-13T13:26:16 IST" name="tearDown" finished-at="2024-06-13T13:26:20 IST" duration-ms="3881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.capstoneproject.Pages.CheckoutTest -->
       <class name="com.capstoneproject.Pages.AddItemFromDepartmentTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.AddItemFromDepartmentTest@34e9fd99]" started-at="2024-06-13T12:50:12 IST" name="setUp" finished-at="2024-06-13T12:50:22 IST" duration-ms="9891" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.AddItemFromDepartmentTest@34e9fd99]" started-at="2024-06-13T13:24:48 IST" name="setUp" finished-at="2024-06-13T13:25:02 IST" duration-ms="13809" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,17 +152,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addItemFromDepartment()[pri:0, instance:com.capstoneproject.Pages.AddItemFromDepartmentTest@34e9fd99]" started-at="2024-06-13T12:50:22 IST" name="addItemFromDepartment" finished-at="2024-06-13T12:50:52 IST" duration-ms="29300" status="PASS">
+        <test-method signature="addItemFromDepartment()[pri:0, instance:com.capstoneproject.Pages.AddItemFromDepartmentTest@34e9fd99]" started-at="2024-06-13T13:25:02 IST" name="addItemFromDepartment" finished-at="2024-06-13T13:25:15 IST" duration-ms="13158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemFromDepartment -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.AddItemFromDepartmentTest@34e9fd99]" started-at="2024-06-13T12:50:52 IST" name="tearDown" finished-at="2024-06-13T12:50:54 IST" duration-ms="2142" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.AddItemFromDepartmentTest@34e9fd99]" started-at="2024-06-13T13:25:15 IST" name="tearDown" finished-at="2024-06-13T13:25:17 IST" duration-ms="2190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.capstoneproject.Pages.AddItemFromDepartmentTest -->
       <class name="com.capstoneproject.Pages.SearchAndAddCart">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.SearchAndAddCart@36ebc363]" started-at="2024-06-13T12:48:58 IST" name="setUp" finished-at="2024-06-13T12:49:08 IST" duration-ms="9762" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.SearchAndAddCart@36ebc363]" started-at="2024-06-13T13:23:51 IST" name="setUp" finished-at="2024-06-13T13:24:06 IST" duration-ms="14831" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -256,17 +173,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchAndAddToCart()[pri:0, instance:com.capstoneproject.Pages.SearchAndAddCart@36ebc363]" started-at="2024-06-13T12:49:08 IST" name="searchAndAddToCart" finished-at="2024-06-13T12:49:19 IST" duration-ms="10764" status="PASS">
+        <test-method signature="searchAndAddToCart()[pri:0, instance:com.capstoneproject.Pages.SearchAndAddCart@36ebc363]" started-at="2024-06-13T13:24:06 IST" name="searchAndAddToCart" finished-at="2024-06-13T13:24:16 IST" duration-ms="9978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchAndAddToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.SearchAndAddCart@36ebc363]" started-at="2024-06-13T12:49:19 IST" name="tearDown" finished-at="2024-06-13T12:49:21 IST" duration-ms="1980" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.SearchAndAddCart@36ebc363]" started-at="2024-06-13T13:24:16 IST" name="tearDown" finished-at="2024-06-13T13:24:18 IST" duration-ms="2167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.capstoneproject.Pages.SearchAndAddCart -->
       <class name="com.capstoneproject.Pages.AddItemFromBrandTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.AddItemFromBrandTest@45752059]" started-at="2024-06-13T12:49:21 IST" name="setUp" finished-at="2024-06-13T12:49:31 IST" duration-ms="9641" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.AddItemFromBrandTest@45752059]" started-at="2024-06-13T13:24:18 IST" name="setUp" finished-at="2024-06-13T13:24:30 IST" duration-ms="12625" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,17 +194,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addItemFromBrand()[pri:0, instance:com.capstoneproject.Pages.AddItemFromBrandTest@45752059]" started-at="2024-06-13T12:49:31 IST" name="addItemFromBrand" finished-at="2024-06-13T12:50:10 IST" duration-ms="39625" status="PASS">
+        <test-method signature="addItemFromBrand()[pri:0, instance:com.capstoneproject.Pages.AddItemFromBrandTest@45752059]" started-at="2024-06-13T13:24:30 IST" name="addItemFromBrand" finished-at="2024-06-13T13:24:46 IST" duration-ms="15466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemFromBrand -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.AddItemFromBrandTest@45752059]" started-at="2024-06-13T12:50:10 IST" name="tearDown" finished-at="2024-06-13T12:50:12 IST" duration-ms="2120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.AddItemFromBrandTest@45752059]" started-at="2024-06-13T13:24:46 IST" name="tearDown" finished-at="2024-06-13T13:24:48 IST" duration-ms="2087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.capstoneproject.Pages.AddItemFromBrandTest -->
       <class name="com.capstoneproject.Pages.SignUpAndLogin">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.SignUpAndLogin@55182842]" started-at="2024-06-13T12:47:30 IST" name="setUp" finished-at="2024-06-13T12:47:49 IST" duration-ms="18899" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.capstoneproject.Pages.SignUpAndLogin@55182842]" started-at="2024-06-13T13:21:12 IST" name="setUp" finished-at="2024-06-13T13:21:25 IST" duration-ms="12598" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,11 +215,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="signUpAndLogin()[pri:0, instance:com.capstoneproject.Pages.SignUpAndLogin@55182842]" started-at="2024-06-13T12:47:49 IST" name="signUpAndLogin" finished-at="2024-06-13T12:48:03 IST" duration-ms="13635" status="PASS">
+        <test-method signature="signUpAndLogin()[pri:0, instance:com.capstoneproject.Pages.SignUpAndLogin@55182842]" started-at="2024-06-13T13:21:25 IST" name="signUpAndLogin" finished-at="2024-06-13T13:21:45 IST" duration-ms="19962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpAndLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.SignUpAndLogin@55182842]" started-at="2024-06-13T12:48:03 IST" name="tearDown" finished-at="2024-06-13T12:48:06 IST" duration-ms="2823" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.capstoneproject.Pages.SignUpAndLogin@55182842]" started-at="2024-06-13T13:21:45 IST" name="tearDown" finished-at="2024-06-13T13:21:47 IST" duration-ms="2212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
