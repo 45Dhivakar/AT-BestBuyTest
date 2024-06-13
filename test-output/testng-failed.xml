@@ -3,13 +3,34 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.capstoneproject.SearchAndAddCart">
+      <class name="com.capstoneproject.Pages.CheckoutTest">
         <methods>
-          <include name="searchAndAddToCart"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="checkout"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.capstoneproject.SearchAndAddCart -->
+      </class> <!-- com.capstoneproject.Pages.CheckoutTest -->
+      <class name="com.capstoneproject.Pages.InvalidLoginTest">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.capstoneproject.Pages.InvalidLoginTest -->
+      <class name="com.capstoneproject.Pages.AddItemFromDepartmentTest">
+        <methods>
+          <include name="addItemFromDepartment"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.capstoneproject.Pages.AddItemFromDepartmentTest -->
+      <class name="com.capstoneproject.Pages.AddItemFromBrandTest">
+        <methods>
+          <include name="addItemFromBrand"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.capstoneproject.Pages.AddItemFromBrandTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
